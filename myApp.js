@@ -2,6 +2,7 @@ var bGround = require('fcc-express-bground');
 var express = require('express');
 var app = express();
 
+require('dotenv').config();
 // --> 7)  Mount the Logger middleware here
 
 
